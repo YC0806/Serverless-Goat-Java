@@ -66,7 +66,7 @@ Resources:
   Bucket:
       Type: AWS::S3::Bucket
       Properties:
-        AccessControl: PublicRead
+        ObjectOwnership: BucketOwnerPreferred
         WebsiteConfiguration:
           IndexDocument: index.html
           ErrorDocument: index.html
